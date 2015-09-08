@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Delegate.Swagger</id>
+    <version>1.0.0</version>
+    <authors>Delegate A/S</authors>
+    <owners>Delegate A/S</owners>
+    <licenseUrl>https://github.com/delegateas/Delegate.Swagger/license.md</licenseUrl>
+    <projectUrl>https://github.com/delegateas/Delegate.Swagger</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/delegateas/Delegate.Swagger/master/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Addes Swashbuckle to the solution with the Delegate A/S specific branding. Swashbuckle provides a swagger ui for your WebAPI.</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Delegate Swagger Swashbuckle REST Documentation</tags>
+    <dependencies>
+      <dependency id="Swashbuckle.Core" version="5.2.1"/>
+    </dependencies>
+  </metadata>
+</package>
