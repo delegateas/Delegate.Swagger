@@ -9,10 +9,9 @@
         //    swaggerUi.api.clientAuthorizations.add("key", new SwaggerClient.ApiKeyAuthorization("TenantKey", key, "header"));      
         //}
     //});
-    alert('hello');
     // make the logo in the top left point to delegate.dk
     var logo = $('#logo');
-    if (logo[0]) {
-        logo[0].attr('href', "http://delegate.dk");
+    if (logo.length > 0) {
+        logo.attr('href', "http://delegate.dk");
     }
 });
